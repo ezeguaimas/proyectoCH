@@ -1,0 +1,284 @@
+/*font-family: 'Inter Tight', sans-serif;
+font-family: 'Vollkorn', serif;*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  background-color: #12122b;
+  align-items: center;
+}
+.iconosRedes{
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  align-items: center;
+  justify-items: flex-end;
+
+}
+.iconosRedes ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 100%;
+  
+}
+.iconosRedes ul li img{
+  max-width: 45px;
+  max-height: 45px;
+  border-radius: 50%;
+        
+}
+.iconosRedes ul li{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+  transition: all .4s ease-in-out;
+  
+    
+}
+.iconosRedes ul li:hover{
+  transform: scale(1.2);
+}
+
+#top {
+  width: 100%;
+}
+nav {
+  display: flex;
+  width: 100%;
+  align-self: center;
+  justify-content: flex-end;
+  background-color: #383845;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+nav ul li {
+  margin: 15px;
+  padding: 5px;
+  border: 5px;
+  background-color: #383845;
+  font-size: 150%;
+  font-weight: 900;
+  
+}
+nav ul li a {
+  text-decoration: none;
+  color: #aaaa91;
+    
+}
+nav ul li:hover{
+  transform: scale(1.2);
+}
+
+#top img {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  padding: 5px;
+  border-radius: 0%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 5% #5e5e5e;
+  padding: 2% #5e5e5e;
+  background-color: #5e5e5e;
+}
+main img {
+  width: 100%;
+  height: 100%;
+}
+main p {
+  margin: 20px 15px 20px 15px;
+  padding: 30px 25px 30px 25px;
+  font-family: "Inter Tight", sans-serif;
+  font-size: large;
+  text-align: justify;
+}
+h1 {
+  text-align: center;
+  font-family: "Vollkorn", serif;
+  font-weight: 600;
+  font-size: 300%;
+}
+h2 {
+  text-align: center;
+  font-family: "Vollkorn", serif;
+  font-size: 300%;
+}
+section {
+  margin: 20px 15px 20px 15px #848478;
+  padding: 30px 25px 30px 25px;
+  background-color: #848478;
+  justify-content: center;
+  align-content: center;
+}
+section h2 {
+  padding: #848478;
+  margin: #878778;
+}
+section h3 {
+  text-align: center;
+  font-family: "Vollkorn", serif;
+  font-size: 200%;
+  text-decoration: none;
+}
+section p {
+  font-family: "Inter Tight", sans-serif;
+  text-align: justify;
+  font-size: 150%;
+  margin: 20px 15px 20px 15px;
+  padding: 30px 25px 30px 25px;
+}
+section img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.equipo div img {
+  width: 350px;
+  height: 350px;
+  margin: auto;
+  border-radius: 50%;
+
+}
+.equipo div img:hover{
+  transform: rotateY(720deg);
+  transition: all 2s;
+}
+.equipo div span {
+  display: flex;
+  justify-content: center;
+}
+.practicas div img {
+  width: 40%;
+  height: 100%;
+  margin: auto;
+}
+.areasIndex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.areasIndex div:hover{
+  transition: all 1s;
+  transform: scale(1.1);
+
+}
+.areasIndex div {
+  justify-content: center;
+  
+}
+.areasIndex div img {
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.areasIndex a {
+  margin: 5px;
+  padding: 5px;
+  border: 5px;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.areasIndex h2 {
+  width: 100%;
+}
+section fieldset legend {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 150%;
+}
+section form {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 110%;
+}
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #5e5e5e;
+  width: 100%;
+  justify-content: space-between;
+}
+footer div img {
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+}
+footer .copyright {
+  width: 100%;
+}
+.iconosRedesFoot a img {
+  display: flex;
+  max-width: 40px;
+  max-height: 40px;
+}
+.iconosRedesFoot {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  
+}
+.legales span a{
+  color: black;
+}
+#waSticky a img {
+  height: 80px;
+  width: 80px;
+  opacity: 70%;
+}
+#waSticky {
+  display: flex;
+  position: sticky;
+  bottom: 3%;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+#irArriba a img {
+  height: 80px;
+  width: 80px;
+  opacity: 70%;
+}
+#irArriba {
+  position: sticky;
+  bottom: 3%;
+  display: flex;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.section div {
+  justify-content: center;
+}
+.section div img {
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.section a {
+  margin: 5px;
+  padding: 5px;
+  border: 5px;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
